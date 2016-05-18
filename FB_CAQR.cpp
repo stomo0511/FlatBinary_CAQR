@@ -1,10 +1,10 @@
 //============================================================================
-// Name        : MPI_LL.cpp
+// Name        : Flat Binary Tree version of CAQR
 // Author      : T. Suzuki
-// Version     : isend/irecv
+// Version     :
 // Copyright   :
 // Description :
-//  Date       : 2015/11/09
+//  Date       : 2016/05/18
 //============================================================================
 
 #include <cstdlib>
@@ -36,7 +36,7 @@ int main(int argc, char * argv[])
 
 	if (argc < 5)
     {
-		cerr << "Usage: LL [M] [N] [NB] [IB]\n";
+		cerr << "Usage: FB_CAQR [M] [N] [NB] [IB]\n";
 		exit(EXIT_FAILURE);
     }
 
